@@ -13,6 +13,8 @@ profile:
 #  - name: <SomeEnabledInspectionId>
 include:
   - name: PhpVulnerablePathsInspection
+  - name: CyclomaticComplexityJS
+  - name: PhpFunctionCyclomaticComplexityInspection
 
 #Disable inspections
 #exclude:
